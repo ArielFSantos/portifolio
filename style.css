@@ -93,13 +93,16 @@ aside{
     
 }
 aside:hover{
+
     background-color: rgba(128, 128, 128, 0.11);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
 }
 aside h1{
+
     font-size: 100px;
 }
 aside p{
+
     font-size: 30px;
 }
 footer{
@@ -112,48 +115,64 @@ footer{
     background-attachment: fixed;
     background-image:url(ariel2.png) ;
     border-left: 50px;
-    height: 90vh;
-    width: 500px;
+    height: 95vh;
+    width: 550px;
     margin-left: 50px;
     display: inline-block;
     
     
 }
-#parallax img{
 
-    
-   
-}
 #parallax:hover{
    
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
 }
 #contatos{
 
-    height: 700px;
-    width: 1000px;
+    
+    
+    width: 99vw;
     
 }
 #contatos img{
 
-    border-left: 1000px;
+
+    margin-left: 50px;
     width: 300px;
     height: 300px;
+}
+#contatos img:hover{
+
+    height: 320px;
+    width: 320px;
+    
 }
 #contatos h1{
 
     
 }
 #contatos a{
-    
+    margin-top: 200px;
     display: inline-block;
     padding: 50px 50px;
 }
 #contain{
      
-    
+    width: 97vw;
     display: inline-flex;
 }
 #contain h1{
+    
+    font-size: 10vh;
+    color:rgba(255, 255, 255, 0.774);
+    text-shadow: 1px 1px 1px black;
     margin-left: 500px;
+}
+footer{
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.267);
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    height: 100px;
 }
