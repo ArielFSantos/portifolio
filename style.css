@@ -143,8 +143,8 @@ footer{
 }
 #contatos img:hover{
 
-    height: 320px;
-    width: 320px;
+    height: 310px;
+    width: 310px;
     
 }
 #contatos h1{
@@ -167,6 +167,17 @@ footer{
     color:rgba(255, 255, 255, 0.774);
     text-shadow: 1px 1px 1px black;
     margin-left: 500px;
+}
+#topo{
+    margin-left: 90vw;
+    width: 10px;
+    height: 10px;
+}
+#topo img{
+
+    text-shadow: 1px 1px 1px black;
+    width: 100px;
+    height: 100px;
 }
 footer{
     font-weight: bolder;
